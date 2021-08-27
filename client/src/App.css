@@ -1,0 +1,19 @@
+.memory-game {
+  width: 800px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tiles-container {
+  display: grid;
+  gap: 10px;
+  width: 600px;
+  height: 600px;
+}
+
+.tile {
+  background: grey;
+  border-radius: 4px;
+}
