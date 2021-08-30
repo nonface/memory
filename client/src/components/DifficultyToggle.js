@@ -14,7 +14,7 @@ const DifficultyToggle = () => {
         value={state.difficulty}
         onChange={e => dispatch({ type: "SET_DIFFICULTY", payload: e.target.value })}
       />
-      <label htmlFor="range-toggle">Difficulty {state.difficulty}</label>
+      <label htmlFor="range-toggle">Difficulty: {state.difficulty}</label>
     </div>
   )
 }
